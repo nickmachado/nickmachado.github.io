@@ -1,0 +1,81 @@
+body {
+  background: url("images/background.jpeg");
+}
+
+h2, p, li a{
+  font-family: 'Indie Flower', cursive;
+}
+body{
+  margin: 0;
+}
+
+h1 {
+  background-image: radial-gradient(circle, #2bccb0, #00c0bd, #00b3c5, #05a5c6, #3c96c0);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  color: #74408C;
+  margin: -10px 0 50px 0;
+  text-align: center;
+  border-bottom: solid black 1px;
+  width: 100%;
+}
+
+h2 {
+  background-color: #3E0061;
+  border: solid 1px black;
+  color: white;
+  text-align: center;
+  width: 6%;
+  padding: 5px 0 5px 8px;
+}
+
+li a {
+  color: #43E8DE;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #3E0061;
+  opacity: 0.7;
+  padding: 0 1em 0 1em;
+  box-shadow: 5px 5px 5px #18B79B;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+li a:hover {
+  color: #3E0061;
+  background: #18B79B;
+  opacity: 2;
+  box-shadow: 5px 5px 5px #3E0061;
+}
+
+img {
+  height: 300px;
+  width:300px;
+  border-radius: 10000px;
+  margin-top: 1%;
+  border: solid #74408C 5px;
+
+}
+
+nav li {
+
+  margin-top: 9%;
+  display:inline-block;
+
+}
+
+nav ul {
+  padding-left: 0em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  background-image: radial-gradient(circle, #2bccb0, #00c0bd, #00b3c5, #05a5c6, #3c96c0);
+  font-size: 20px;
+  font-weight: bold;
+  color: #3E0061;
+  text-align: center;
+  border-top: 5px #3E0061 double;
+  border-bottom: 5px #3E0061 double;
+}
