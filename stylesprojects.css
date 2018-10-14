@@ -79,3 +79,18 @@ p {
   border-top: 5px #3E0061 double;
   border-bottom: 5px #3E0061 double;
 }
+
+footer p{
+  background: #3E0061;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 42%;
+  margin: 34% 0 0 29%;
+  text-align: center;
+  opacity: 0.7;
+  /* border-radius: 7px; */
+  color: white;
+  border: 1px solid #3E0061;
+  padding-top: 0%;
+
+}
