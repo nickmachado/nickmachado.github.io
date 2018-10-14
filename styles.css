@@ -1,12 +1,10 @@
 body {
   background: url("images/background.jpeg");
+  margin: 0 0 - 2% 0;
 }
 
-h2, p, li a{
+h2, p, li a {
   font-family: 'Indie Flower', cursive;
-}
-body{
-  margin: 0;
 }
 
 h1 {
@@ -54,11 +52,9 @@ img {
   border-radius: 10000px;
   margin-top: 1%;
   border: solid #74408C 5px;
-
 }
 
 nav li {
-
   margin-top: 9%;
   display:inline-block;
 
@@ -71,7 +67,7 @@ nav ul {
   align-items: center;
 }
 
-p {
+.HomeP {
   background-image: radial-gradient(circle, #2bccb0, #00c0bd, #00b3c5, #05a5c6, #3c96c0);
   font-size: 20px;
   font-weight: bold;
@@ -79,4 +75,18 @@ p {
   text-align: center;
   border-top: 5px #3E0061 double;
   border-bottom: 5px #3E0061 double;
+}
+
+footer p{
+  background: #3E0061;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 42%;
+  margin: 10% 0 0 29%;
+  text-align: center;
+  opacity: 0.7;
+  /* border-radius: 7px; */
+  color: white;
+  border: 1px solid #3E0061;
+  padding-top: 0%;
 }
