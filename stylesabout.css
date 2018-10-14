@@ -62,12 +62,21 @@ nav ul {
 }
 
 p {
-  background-image: radial-gradient(circle, #2bccb0, #00c0bd, #00b3c5, #05a5c6, #3c96c0);
-  font-size: 20px;
+  background-image: radial-gradient(circle, #2bccb0b3, #00c0bdd6, #00b3c5c4, #05a5c6e6, #3c96c0);
+  font-size: 25px;
   color: #3E0061;
   text-align: center;
   border-top: 5px #3E0061 double;
   border-bottom: 5px #3E0061 double;
+}
+
+article p {
+  width: 44%;
+  margin-left: 27.5%;
+  margin-top: -17%;
+  border-left: 3px #3E0061 dotted;
+  border-right: 3px #3E0061 dotted;
+  border-radius: 15px;
 }
 
 footer p{
@@ -75,11 +84,10 @@ footer p{
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   width: 42%;
-  margin: 34% 0 0 29%;
+  margin: 36% 0 0 29%;
   text-align: center;
   opacity: 0.7;
   color: white;
   border: 1px solid #3E0061;
   padding-top: 0%;
-
 }
