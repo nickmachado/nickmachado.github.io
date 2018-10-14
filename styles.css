@@ -1,6 +1,6 @@
 body {
   background: url("images/background.jpeg");
-  margin: 0 0 - 2% 0;
+  margin:0;
 }
 
 h2, p, li a {
@@ -82,10 +82,9 @@ footer p{
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   width: 42%;
-  margin: 10% 0 0 29%;
+  margin: 18% 0 0 29%;
   text-align: center;
   opacity: 0.7;
-  /* border-radius: 7px; */
   color: white;
   border: 1px solid #3E0061;
   padding-top: 0%;
