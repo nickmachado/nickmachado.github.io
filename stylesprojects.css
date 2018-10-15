@@ -2,7 +2,7 @@ body {
   background: url("images/background.jpeg");
 }
 
-h2, p, li a{
+h2, h3, p, li a{
   font-family: 'Indie Flower', cursive;
 }
 body{
@@ -61,6 +61,14 @@ nav ul {
   flex-direction: column;
 }
 
+
+article img {
+  height: 400px;
+  width: 700px;
+  margin-left: 28%;
+  margin-top: -24%;
+}
+
 p {
   background-image: radial-gradient(circle, #2bccb0, #00c0bd, #00b3c5, #05a5c6, #3c96c0);
   font-size: 20px;
@@ -70,16 +78,29 @@ p {
   border-bottom: 5px #3E0061 double;
 }
 
-footer p{
+article p {
+  width: 700px;
+  margin-left: 28%;
+  margin-top: 1%;
+  border-left: 3px #3E0061 dotted;
+  border-right: 3px #3E0061 dotted;
+  border-radius: 15px;
+  margin-bottom: 32%;
+}
+
+.LastArticle {
+  margin-bottom: -18%;
+}
+
+footer p {
   background: #3E0061;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   width: 42%;
-  margin: 34% 0 0 29%;
+  margin: 34% 0 0 28%;
   text-align: center;
   opacity: 0.7;
   color: white;
   border: 1px solid #3E0061;
   padding-top: 0%;
-
 }
